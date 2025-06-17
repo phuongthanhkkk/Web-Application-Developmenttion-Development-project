@@ -24,7 +24,9 @@ These projects were completed in the *Web Application Development (IT093IU)* cou
 **Project Name:** DrawVoice Meeting  
 **Team Name:** We Can Draw  
 **Platform:** Real-time collaborative web application  
-
+**Main Project:** check out this repo: https://github.com/huynhtrankhanh/WeCanDraw
+**For live demo:** go to this website https://abundant-rambunctious-apple.glitch.me/
+**Notice:** This repository is for the main meeting logic. For the UI shown before the meeting page, check out this repo: https://github.com/huynhtrankhanh/WeCanDraw-landing
 **Key Features:**
 - Voice chat using WebSocket and Jitsi  
 - Shared drawing canvas with multiple tools  
