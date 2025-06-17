@@ -64,7 +64,7 @@ Each task was further divided into subtasks and managed using Scrum methodology.
 ---
 
 ## Use Case Diagram  
-📎 **File:** [USE CASE DIAGRAM.drawio.png]
+📎 **File:** [USE CASE DIAGRAM.drawio.png](https://github.com/phuongthanhkkk/Web-Application-Developmenttion-Development-project/blob/main/USE%20CASE%20DIAGRAM.drawio.png)
 
 Actors:
 - **User**: Can register, login, join/create rooms, voice chat, draw  
@@ -81,7 +81,7 @@ Key Use Cases:
 ---
 
 ## Sequence Diagrams  
-📎 **Files:**  
+📎 **Files:**  [Sequence Diagrams directory](https://github.com/phuongthanhkkk/Web-Application-Developmenttion-Development-project/tree/main/Sequence%20Diagram)
 - `SequenceDiagram-Create Account.drawio`  
 - `SequenceDiagram-Login.drawio`  
 - `SequenceDiagram-Create Meeting.drawio`  
@@ -92,7 +92,7 @@ Key Use Cases:
 ---
 
 ## MVC Architecture  
-📎 **File:** `MVC.drawio.png`  
+📎 **File:** [MVC.drawio.png](https://github.com/phuongthanhkkk/Web-Application-Developmenttion-Development-project/blob/main/MVC.drawio.png)  
 
 **Model**: Java classes, DB access (User, Meeting, DrawChat)  
 **View**: JSP/HTML/JS (User, Meeting, DrawChat pages)  
@@ -100,8 +100,54 @@ Key Use Cases:
 
 ---
 
+## MVC Model (Detailed View)  
+📎 **File:** [MVC_Model.drawio.png](https://github.com/phuongthanhkkk/Web-Application-Developmenttion-Development-project/blob/main/MVC_Model.drawio.png)  
+
+This diagram expands on the **Model-View-Controller (MVC)** architecture to show **how components interact** within the DrawVoice web application.
+
+### 🧱 Components Breakdown
+
+#### 🔷 Model (Business Logic & Database Layer)
+- Represents application data and rules.
+- **Entities** include:
+  - `User` (username, email, password)
+  - `Meeting` (meeting ID, name, description)
+  - `DrawEvent` (event type, coordinates, color, tool)
+  - `VoiceStream` (audio data, timestamps)
+- Connects to:
+  - **MySQL** for persistent data
+  - **WebSocket Server** for real-time drawing and voice communication
+
+#### 🟢 View (User Interface Layer)
+- Interface technologies:
+  - **HTML, CSS, JavaScript** for client interactivity
+  - **JSP** for rendering server-side dynamic content
+- Key UI Pages:
+  - Home, Login, Register
+  - Meeting Room
+  - Drawboard & Audio Controls
+
+#### 🔶 Controller (Application Logic Layer)
+- Java Servlets handle:
+  - Routing (e.g., `/login`, `/createMeeting`)
+  - Input validation and session control
+  - Communicating with both Model and View
+- Connects to:
+  - **WebSocket Layer** for draw/voice sync with Node.js
+
+---
+
+### 🔁 Interaction Flow
+
+1. **User Action** → Controller (Servlet)  
+2. **Controller** → Model (e.g., query/update database)  
+3. **Model** → View (forward results)  
+4. **View** → Rendered UI to user  
+
+---
+
 ## Entity-Relationship Diagram (ERD)  
-📎 **File:** `ERD.drawio.png`  
+📎 **File:** [ERD.drawio.png](https://github.com/phuongthanhkkk/Web-Application-Developmenttion-Development-project/blob/main/ERD.drawio.png)  
 
 Includes:
 - `User`, `Meeting`, `MeetingManager`, `DrawChat`  
@@ -110,7 +156,7 @@ Includes:
 ---
 
 ## Class Diagram  
-📎 **File:** `ClassDiagram.drawio.png`  
+📎 **File:** [ClassDiagram.drawio.png](https://github.com/phuongthanhkkk/Web-Application-Developmenttion-Development-project/blob/main/ClassDiagram.drawio.png)  
 
 Object-oriented design using:
 - Encapsulation via getters/setters  
@@ -154,4 +200,3 @@ Object-oriented design using:
 
 ---
 
-Let me know if you'd like this turned into a GitHub README, printable PDF, or portfolio template!
