@@ -50,7 +50,7 @@ These projects were completed in the *Web Application Development (IT093IU)* cou
 ---
 
 ## Work Breakdown Structure  
-📎 **File:** `Work Breakdown Structure_WAD.pdf`  
+📎 **File:** [Work Breakdown Structure_WAD.pdf](https://github.com/phuongthanhkkk/Web-Application-Developmenttion-Development-project/blob/main/WorK%20Breakdown%20Structure_WAD.pdf)
 
 Main components:
 - Login System  
@@ -64,7 +64,7 @@ Each task was further divided into subtasks and managed using Scrum methodology.
 ---
 
 ## Use Case Diagram  
-📎 **File:** `USE CASE DIAGRAM.drawio.png`  
+📎 **File:** [USE CASE DIAGRAM.drawio.png]
 
 Actors:
 - **User**: Can register, login, join/create rooms, voice chat, draw  
